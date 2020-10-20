@@ -12,6 +12,6 @@ php artisan migrate
 brief what i did
 make api to create update delete list show department
 used controller 
-controller call class service
-service call class repositery
+controller call class service(service to have logic business)
+service call class repositery (repositery to have connection to database using model)
 repositery extend from class abstract department
